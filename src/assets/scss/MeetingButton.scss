@@ -1,0 +1,21 @@
+.meeting-button {
+    background-color: #44d9e0;
+    font-weight: 700;
+    position: sticky;
+    top: 5px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 25px;
+    text-align: center;
+    border: solid 2px #44d9e0;
+    transition: .5s;
+    &:hover {
+        background-color: #4ff6ff;
+        border: solid 2px #FFC000;
+        -webkit-box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
+        -moz-box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
+        box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
+    }
+}
