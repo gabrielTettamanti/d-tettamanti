@@ -2,7 +2,7 @@
     background-color: #44d9e0;
     -webkit-box-shadow: 5px 5px 17.5px 5px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 5px 5px 17.5px 5px rgba(0, 0, 0, 0.4);
-    box-shadow: 5px 5px 17.5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.4);
     font-weight: 700;
     width: 150px;
     height: 40px;
@@ -28,6 +28,25 @@
         box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
         p {
             border: solid 1px #ffbf00;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .meeting-button {
+        width: 175px;
+        height: 50px;
+        padding: 4px;
+        border: solid 2px #44d9e0;
+        font-size: 20px;
+        p {
+            border: solid 3px #ffbf0091;
+        }
+        &:hover {
+            border: solid 2px #FFC000;
+            p {
+                border: solid 3px #ffbf00;
+            }
         }
     }
 }
