@@ -3,11 +3,11 @@ import '../assets/scss/MeetingButton.scss'
 export default function MeetingButton({font}: {font: any}) {
     return (
       <a
-            href="https://calendly.com/dtettamanti/45min"
-            target='_blank'
-            className={`${font} meeting-button`}
+        href="https://calendly.com/dtettamanti/45min"
+        target="_blank"
+        className={`${font} meeting-button`}
       >
-        Agendar cita
+        <p>Agendar cita</p>
       </a>
     );
 }
