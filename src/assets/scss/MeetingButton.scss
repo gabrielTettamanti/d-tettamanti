@@ -1,5 +1,8 @@
 .meeting-button {
     background-color: #44d9e0;
+    -webkit-box-shadow: 5px 5px 17.5px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 5px 5px 17.5px 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 5px 17.5px 5px rgba(0, 0, 0, 0.4);
     font-weight: 700;
     width: 150px;
     height: 40px;
