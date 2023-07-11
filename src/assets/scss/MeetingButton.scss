@@ -7,7 +7,6 @@
     width: 150px;
     height: 40px;
     padding: 2px;
-    margin: 15px auto;
     border-radius: 25px;
     text-align: center;
     border: solid 1px #44d9e0;
@@ -18,7 +17,7 @@
         align-items: center;
         width: 100%;
         height: 100%;
-        border: solid 1px #FFC000;
+        border: solid 1px #ffbf0091;
         border-radius: 25px;
     }
     &:hover {
@@ -27,27 +26,8 @@
         -webkit-box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
         -moz-box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
         box-shadow: 10px 10px 25px 10px rgba(255,192,0,0.4);
-    }
-}
-
-@media (max-width: 768px) {
-    .meeting-button {
-        width: 150px;
-        height: 40px;
-        padding: 2px;
-        margin: 15px auto;
-        border-radius: 25px;
-        text-align: center;
-        border: solid 1px #44d9e0;
-        transition: .5s;
         p {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            border: solid 1px #FFC000;
-            border-radius: 25px;
+            border: solid 1px #ffbf00;
         }
     }
 }
