@@ -1,8 +1,10 @@
+import WelcomePage from "@/components/WelcomePage";
+
 
 export default function Home() {
   return (
     <main>
-      <h1>Soy el index</h1>
+      <WelcomePage />
     </main>
   )
 }

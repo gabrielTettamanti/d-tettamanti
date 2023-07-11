@@ -4,6 +4,7 @@ import { Roboto } from 'next/font/google'
 import '../assets/scss/global.scss'
 
 import MeetingButton from '@/components/MeetingButton'
+import NavigationBar from '@/components/NavBar';
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -24,8 +25,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={roboto.className}>
-      <body className='body-container'>
-        <MeetingButton font={ roboto.className } />
+      <body className="body-container">
+        <NavigationBar font={roboto.className} />
         {children}
       </body>
     </html>
