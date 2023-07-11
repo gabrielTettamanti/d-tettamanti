@@ -5,7 +5,7 @@ export default function WelcomePage() {
       <section id="welcome-page-container">
         <h1 id="welcome-title">
           <p>D. Tettamanti</p>
-          <span>Finanzas</span>
+          <span>Sustentabilidad financiera</span>
         </h1>
       </section>
     );
