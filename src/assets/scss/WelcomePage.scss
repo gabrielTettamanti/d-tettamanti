@@ -3,7 +3,7 @@
     #welcome-title {
         width: 90%;
         max-width: 425px;
-        margin: auto;
+        margin: 10px auto;
         text-align:center;
         text-transform:uppercase;
         letter-spacing:1px;
@@ -36,6 +36,14 @@
             height: 5px;
         }
     }
+    #welcome-text {
+        text-align: center;
+        color: #f6f6f6;
+        width: 90%;
+        max-width: 550px;
+        margin: 20px auto;
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -49,6 +57,10 @@
             span {
                 font-size:12px;
             }
+        }
+        #welcome-text {
+            margin: 20px 8%;
+            font-size: 18px;
         }
     }
 }
