@@ -1,8 +1,6 @@
 #welcome-page-container {
     width: 100%;
     #welcome-title {
-        color: #f6f6f6;
-        font-size: 32px;
         width: 90%;
         max-width: 425px;
         margin: auto;
@@ -10,6 +8,11 @@
         text-transform:uppercase;
         letter-spacing:1px;
         font-weight:300;
+        text-shadow: 5px 5px 5px #00000066;
+        p {
+            color: #f6f6f6;
+            font-size: 32px;
+        }
         span {
             margin-top: 5px;
             font-size:15px;
