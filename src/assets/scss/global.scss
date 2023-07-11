@@ -5,10 +5,12 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.06em;
     -webkit-tap-highlight-color: transparent;
-    background-color: white;
 }
 
 .body-container {
+    background: #020024;
+    background: linear-gradient(125deg, #060606 0%, #38959a 42.5%, #d4ad5f 45%, #0b4948 47.5%, #060606 100%);
+    background-color: #1d1d1d;
     display: flex;
     flex-direction: column;
     align-items: center;
