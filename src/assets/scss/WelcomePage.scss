@@ -37,3 +37,18 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    #welcome-page-container {
+        #welcome-title {
+            margin:  10px 10%;
+            max-width: 500px;
+            p {
+                font-size: 48px;
+            }
+            span {
+                font-size:12px;
+            }
+        }
+    }
+}
