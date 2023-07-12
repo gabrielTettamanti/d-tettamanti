@@ -50,3 +50,10 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+    .meeting-button {
+        width: 150px;
+        font-size: 18px;
+    }
+}

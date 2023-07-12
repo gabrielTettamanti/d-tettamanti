@@ -16,6 +16,14 @@ export default function WelcomePage() {
           Tempore incidunt consectetur magni iste beatae soluta delectus officia
           illum praesentium!
         </p>
+        <ul id='welcome-index'>
+          <li>Mi historia</li>
+          <li>Herramientas</li>
+          <li>FAQ</li>
+          <li>Experiencias</li>
+          <li>Socios estratégicos</li>
+          <li>Contacto</li>
+        </ul>
       </section>
     );
 }

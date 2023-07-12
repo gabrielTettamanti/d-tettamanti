@@ -1,7 +1,7 @@
 #navigation-bar {
     position: sticky;
     top: 5px;
-    height: 110px;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,10 +9,16 @@
 
 @media (min-width: 768px) {
     #navigation-bar {
-        height: 110px;
+        height: 15vh;
         padding:  0px 100px;
-        margin: 50px 0px 0px 0px;
+        margin-top: 50px;
         align-items: center;
         justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1024px) {
+    #navigation-bar {
+        padding:  0px 10px;
     }
 }
