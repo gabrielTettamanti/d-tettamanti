@@ -1,5 +1,6 @@
 #welcome-page-container {
     width: 100%;
+    min-width: 320px;
     #welcome-title {
         width: 90%;
         max-width: 425px;
@@ -44,6 +45,27 @@
         margin: 20px auto;
         font-size: 16px;
         text-shadow: 5px 5px 5px #00000066;
+    }
+    #arrow-down-icon {
+        background: none;
+        border: 4px solid #f6f6f650;
+        border-radius: 100px;
+        display: block;
+        margin: 100px auto;
+        width: 150px;
+        height: 150px;
+        svg {
+            width: 75px;
+            color: #f6f6f627;
+        }
+    }
+}
+
+@media (max-height: 620px) {
+    #welcome-page-container {
+        #arrow-down-icon {
+            display: none;
+        }
     }
 }
 
