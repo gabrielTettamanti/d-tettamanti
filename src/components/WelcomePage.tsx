@@ -16,9 +16,6 @@ export default function WelcomePage() {
           Tempore incidunt consectetur magni iste beatae soluta delectus officia
           illum praesentium!
         </p>
-        <button id="arrow-down-icon">
-          <FontAwesomeIcon icon={faArrowDown} />
-        </button>
       </section>
     );
 }

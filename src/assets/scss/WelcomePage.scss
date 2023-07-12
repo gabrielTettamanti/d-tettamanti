@@ -46,28 +46,6 @@
         font-size: 16px;
         text-shadow: 5px 5px 5px #00000066;
     }
-    #arrow-down-icon {
-        background: none;
-        border: 4px solid #f6f6f650;
-        border-radius: 100px;
-        display: block;
-        margin: 100px auto;
-        width: 100px;
-        height: 100px;
-        transition: .5s;
-        svg {
-            width: 50px;
-            color: #f6f6f627;
-            transition: .5s;
-        }
-        &:hover {
-            border: 4px solid #ffbf00b4;
-            cursor: pointer;
-            svg {
-                color: #ffbf00b4;
-            }
-        }
-    }
 }
 
 @media (max-height: 590px) {
@@ -98,9 +76,6 @@
         #welcome-text {
             margin: 20px 0px;
             font-size: 18px;
-        }
-        #arrow-down-icon {
-            margin: 10px 0px;
         }
     }
 }
