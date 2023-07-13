@@ -4,7 +4,6 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.06em;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .body-container {
@@ -14,5 +13,8 @@
     a {
         text-decoration: none;
         color: black;
+    }
+    button {
+        -webkit-tap-highlight-color: transparent;
     }
 }

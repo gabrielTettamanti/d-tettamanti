@@ -5,6 +5,7 @@ import '../assets/scss/global.scss'
 
 import MeetingButton from '@/components/MeetingButton'
 import NavigationBar from '@/components/NavBar';
+import ContactSection from '@/components/ContactSection';
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body className="body-container">
         <NavigationBar font={roboto.className} />
         {children}
+        <ContactSection />
       </body>
     </html>
   );
