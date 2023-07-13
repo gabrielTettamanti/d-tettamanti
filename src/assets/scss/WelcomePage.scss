@@ -2,12 +2,9 @@
     width: 100%;
     min-width: 320px;
     height: 100vh;
-    background: #020024;
-    background: linear-gradient(150deg, #060606 0%, #38959a 62.5%, #d4ad5f 65%, #0b4948 67.5%, #060606 100%);
-    background-color: #1d1d1d;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     #welcome-title {
         width: 90%;
         max-width: 425px;
