@@ -21,7 +21,7 @@ export default function WelcomePage() {
           <li>Soluciones financieras</li>
           <li>Preguntas frecuentes</li>
           <li>Experiencias</li>
-          <li>Socios estratégicos</li>
+          <li>Partners</li>
           <li>Contacto</li>
         </ul>
       </section>
